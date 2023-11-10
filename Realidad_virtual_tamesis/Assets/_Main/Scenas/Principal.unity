@@ -16634,7 +16634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b, type: 3}
       propertyPath: elements.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b, type: 3}
       propertyPath: elements.Array.data[0]
@@ -16642,6 +16642,10 @@ PrefabInstance:
       objectReference: {fileID: 1081532866}
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b, type: 3}
       propertyPath: elements.Array.data[1]
+      value: 
+      objectReference: {fileID: 1541955601}
+    - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b, type: 3}
+      propertyPath: elements.Array.data[2]
       value: 
       objectReference: {fileID: 1541955601}
     - target: {fileID: 5539946387736140026, guid: 27357be074b04234fa032891fbbeb20b, type: 3}
@@ -106531,7 +106535,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &8277009760809534003
 MeshCollider:
